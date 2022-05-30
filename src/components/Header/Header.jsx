@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 import clsx from 'clsx';
 
+import Logo from '../Logo';
 import IconLink from '../IconLink';
 import { Facebook, Instagram } from '../../icons';
 import { useScrollPosition } from '../../hooks';
@@ -16,7 +18,11 @@ function Header() {
       )}
     >
       <div className="container flex items-center justify-between py-0 h-full">
-        <h1 className="text-3xl font-bold underline">Logo</h1>
+        <Link href="/">
+          <a className="flex items-center">
+            <Logo width={scrollPos >= 100 ? 50 : 100} />
+          </a>
+        </Link>
 
         <div className="flex items-center">
           <nav className="text-md leading-6 font-semibold text-slate-700">

@@ -27,8 +27,16 @@ function Header() {
         <div className="flex items-center">
           <nav className="text-md leading-6 font-semibold text-slate-700">
             <ul className="flex space-x-8">
-              <li>Nuestra Historia</li>
-              <li>Menú</li>
+              <li>
+                <Link href="/#historia">
+                  <a>Nuestra Historia</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#menu">
+                  <a>Menú</a>
+                </Link>
+              </li>
               <li>Contacto</li>
             </ul>
           </nav>

@@ -2,7 +2,7 @@ import SectionTitle from '../SectionTitle';
 
 function OurHistory() {
   return (
-    <section id="ourHistory" className="flex flex-col md:flex-row md:items-center">
+    <section id="historia" className="flex flex-col md:flex-row md:items-center">
       <div className="p-8 pb-10 w-[100%] md:w-[40%] text-center text-blue">
         <SectionTitle>Nuestra Historia</SectionTitle>
       </div>

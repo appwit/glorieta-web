@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import OurHistory from '../components/OurHistory';
 import MenuGrid from '../components/MenuGrid';
+import Contact from '../components/Contact';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Hero />
       <OurHistory />
       <MenuGrid />
+      <Contact />
     </>
   );
 }

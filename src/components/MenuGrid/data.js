@@ -77,7 +77,7 @@ const menuList = [
   {
     id: 'vinos',
     lable: 'Vinos',
-    img: 'menu_16.png',
+    img: 'menu_16.jpg',
   },
 ];
 
